@@ -205,10 +205,10 @@ It is technically capable of raising the dead... but not animating them."
 	result = /obj/item/extract/death
 	time = 60
 	reqs = list(/obj/item/stack/sheet/bone = 2) //reduced price to 2 bones because legions stopped droping skeleton corpses.
-	crafting_flags = CRAFT_MUST_BE_LEARNED | CRAFT_SKIP_MATERIALS_PARITY // TO DO: unrelated to this, go to code/datums/components/crafting/furniture.dm and change the mirror recipe
+	crafting_flags = CRAFT_MUST_BE_LEARNED | CRAFT_SKIP_MATERIALS_PARITY
 	category = CAT_MAGIC
 	tool_paths = list(/obj/item/extract/cans)
-// ToDo: add a second craft from skeleton bodyparts
+
 
 /obj/item/extract/plant_life
 	name = "plant life extract"
