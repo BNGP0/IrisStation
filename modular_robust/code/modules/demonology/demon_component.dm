@@ -14,6 +14,9 @@
 	var/seed = 1
 // range in which we look for the most and least favorable characters
 	var/favorability_check_range = 9
+//if a character has more favor than anyone nearby, then some effects may affect them regardless of range
+	var/most_favorable_remembered
+	var/least_favorable_remembered
 
 //start from checking the longest utterances and end with checking the shortest
 

@@ -14,7 +14,7 @@
 /obj/item/possessed/eyebox/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/demon_holder, \
-		command_typepaths = list(/datum/demon_utterance/summon_entity/bloodvine, /datum/demon_utterance/summon_effect/blood))
+		command_typepaths = list(/datum/demon_utterance/summon/bloodvine, /datum/demon_utterance/summon/blood))
 
 
 /mob/living/basic/mushroom/with_demons
@@ -24,4 +24,4 @@
 /mob/living/basic/mushroom/with_demons/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/demon_holder, \
-		command_typepaths = list(/datum/demon_utterance/summon_entity/bloodvine, /datum/demon_utterance/summon_effect/blood))
+		command_typepaths = list(/datum/demon_utterance/summon/bloodvine, /datum/demon_utterance/summon/blood))
